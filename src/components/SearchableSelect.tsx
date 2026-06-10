@@ -114,7 +114,9 @@ export function SearchableSelect({
             position: "absolute",
             top: "calc(100% + 0.375rem)",
             left: 0,
-            right: 0,
+            minWidth: "100%",
+            width: "max-content",
+            maxWidth: "min(580px, calc(100vw - 2rem))",
             zIndex: 200,
             borderRadius: "0.875rem",
             background: "rgba(255,255,255,0.98)",
@@ -233,19 +235,19 @@ function OptionRow({
         border: "none",
         cursor: "pointer",
         display: "flex",
-        alignItems: "center",
+        alignItems: "flex-start",
         justifyContent: "space-between",
+        gap: "0.625rem",
         fontSize: "0.875rem",
-        fontWeight: selected ? 700 : 400,
+        fontWeight: selected ? 600 : 400,
         color: selected ? "#8458B3" : "#2b2c3d",
       }}
     >
       <span
         style={{
-          overflow: "hidden",
-          textOverflow: "ellipsis",
-          whiteSpace: "nowrap",
-          maxWidth: "calc(100% - 1.5rem)",
+          flex: 1,
+          lineHeight: "1.45",
+          wordBreak: "break-word",
         }}
       >
         {label}
@@ -257,6 +259,7 @@ function OptionRow({
             height: "0.875rem",
             color: "#8458B3",
             flexShrink: 0,
+            marginTop: "0.175rem",
           }}
         />
       )}
