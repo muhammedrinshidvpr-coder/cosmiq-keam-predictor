@@ -1,0 +1,1840 @@
+
+> cosmiq-keam-predictor@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.7 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.131.61.44:3000
+- Environments: .env.local
+✓ Ready in 1184ms
+
+ GET / 200 in 1271ms (next.js: 484ms, application-code: 786ms)
+ GET /admin 200 in 1849ms (next.js: 1576ms, application-code: 272ms)
+ POST /api/admin/upload 500 in 3.0s (next.js: 2.4s, application-code: 541ms)
+ POST /api/admin/upload 500 in 332ms (next.js: 23ms, application-code: 308ms)
+ GET /admin 200 in 73ms (next.js: 42ms, application-code: 30ms)
+ GET /admin 200 in 63ms (next.js: 10ms, application-code: 53ms)
+ GET /admin 200 in 131ms (next.js: 18ms, application-code: 113ms)
+ GET / 200 in 124ms (next.js: 13ms, application-code: 111ms)
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+ GET / 200 in 10.2s (next.js: 539ms, application-code: 9.6s)
+ GET / 200 in 7.5s (next.js: 152ms, application-code: 7.4s)
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+ GET / 200 in 10.6s (next.js: 34ms, application-code: 10.6s)
+ GET / 200 in 10.6s (next.js: 3.7s, application-code: 6.9s)
+ GET / 200 in 10.6s (next.js: 1921ms, application-code: 8.7s)
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+ GET / 200 in 14.0s (next.js: 15ms, application-code: 14.0s)
+ GET / 200 in 12.5s (next.js: 24ms, application-code: 12.4s)
+ GET / 200 in 10.7s (next.js: 68ms, application-code: 10.7s)
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+ GET / 200 in 13.5s (next.js: 18ms, application-code: 13.5s)
+ GET / 200 in 13.6s (next.js: 1702ms, application-code: 11.9s)
+ GET / 200 in 11.9s (next.js: 3.3s, application-code: 8.7s)
+ GET / 200 in 4.7s (next.js: 22ms, application-code: 4.7s)
+[browser] Uncaught Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at Home (src\app\page.tsx:8:7)
+   6 |   return (
+   7 |     <div className="min-h-screen flex flex-col">
+>  8 |       <Navbar />
+     |       ^
+   9 |
+  10 |       <main className="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 py-10 flex flex-col ga...
+  11 |         {/* Hero */}
+[browser] Uncaught Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at Home (src\app\page.tsx:8:7)
+   6 |   return (
+   7 |     <div className="min-h-screen flex flex-col">
+>  8 |       <Navbar />
+     |       ^
+   9 |
+  10 |       <main className="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 py-10 flex flex-col ga...
+  11 |         {/* Hero */}
+✓ Compiled in 289ms
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+ GET / 500 in 5.9s (next.js: 233ms, application-code: 5.6s)
+ GET / 500 in 3.2s (next.js: 18ms, application-code: 3.1s)
+[browser] Uncaught Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at Home (src\app\page.tsx:35:7)
+  33 |   return (
+  34 |     <div className="min-h-screen flex flex-col">
+> 35 |       <Navbar />
+     |       ^
+  36 |
+  37 |       {/* ── Hero ──────────────────────────────────────────────── */}
+  38 |       <section className="hero-bg dot-pattern relative overflow-hidden">
+[browser] Uncaught Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at Home (src\app\page.tsx:35:7)
+  33 |   return (
+  34 |     <div className="min-h-screen flex flex-col">
+> 35 |       <Navbar />
+     |       ^
+  36 |
+  37 |       {/* ── Hero ──────────────────────────────────────────────── */}
+  38 |       <section className="hero-bg dot-pattern relative overflow-hidden">
+✓ Compiled in 429ms
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+ GET / 500 in 8.0s (next.js: 355ms, application-code: 7.6s)
+ GET / 500 in 3.4s (next.js: 66ms, application-code: 3.3s)
+[browser] Uncaught Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at Home (src\app\page.tsx:35:7)
+  33 |   return (
+  34 |     <div className="min-h-screen flex flex-col">
+> 35 |       <Navbar />
+     |       ^
+  36 |
+  37 |       {/* ── Hero ──────────────────────────────────────────────── */}
+  38 |       <section className="hero-bg dot-pattern relative overflow-hidden">
+[browser] Uncaught Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at Home (src\app\page.tsx:35:7)
+  33 |   return (
+  34 |     <div className="min-h-screen flex flex-col">
+> 35 |       <Navbar />
+     |       ^
+  36 |
+  37 |       {/* ── Hero ──────────────────────────────────────────────── */}
+  38 |       <section className="hero-bg dot-pattern relative overflow-hidden">
+✓ Finished writing to filesystem cache in 11.8min
+✓ Finished filesystem cache database compaction in 32.0min
+✓ Compiled in 1346ms
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+ GET / 500 in 8.5s (next.js: 916ms, application-code: 7.5s)
+ GET / 500 in 3.0s (next.js: 30ms, application-code: 3.0s)
+[browser] Uncaught Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at Home (src\app\page.tsx:35:7)
+  33 |   return (
+  34 |     <div className="min-h-screen flex flex-col">
+> 35 |       <Navbar />
+     |       ^
+  36 |
+  37 |       {/* ── Hero ──────────────────────────────────────────────── */}
+  38 |       <section className="hero-bg dot-pattern relative overflow-hidden">
+[browser] Uncaught Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at Home (src\app\page.tsx:35:7)
+  33 |   return (
+  34 |     <div className="min-h-screen flex flex-col">
+> 35 |       <Navbar />
+     |       ^
+  36 |
+  37 |       {/* ── Hero ──────────────────────────────────────────────── */}
+  38 |       <section className="hero-bg dot-pattern relative overflow-hidden">
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+✓ Compiled in 947ms
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+ GET / 500 in 7.9s (next.js: 57ms, application-code: 7.9s)
+ GET / 500 in 3.4s (next.js: 234ms, application-code: 3.1s)
+[browser] Uncaught Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at Home (src\app\page.tsx:35:7)
+  33 |   return (
+  34 |     <div className="min-h-screen flex flex-col">
+> 35 |       <Navbar />
+     |       ^
+  36 |
+  37 |       {/* ── Hero ──────────────────────────────────────────────── */}
+  38 |       <section className="hero-bg dot-pattern relative overflow-hidden">
+[browser] Uncaught Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at Home (src\app\page.tsx:35:7)
+  33 |   return (
+  34 |     <div className="min-h-screen flex flex-col">
+> 35 |       <Navbar />
+     |       ^
+  36 |
+  37 |       {/* ── Hero ──────────────────────────────────────────────── */}
+  38 |       <section className="hero-bg dot-pattern relative overflow-hidden">
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+ GET / 200 in 3.2s (next.js: 28ms, application-code: 3.2s)
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+ GET / 200 in 6.0s (next.js: 2.8s, application-code: 3.1s)
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+ GET / 500 in 15.5s (next.js: 217ms, application-code: 15.2s)
+ GET / 500 in 8.6s (next.js: 26ms, application-code: 8.6s)
+[browser] Uncaught Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at Home (src\app\page.tsx:35:7)
+  33 |   return (
+  34 |     <div className="min-h-screen flex flex-col">
+> 35 |       <Navbar />
+     |       ^
+  36 |
+  37 |       {/* ── Hero ──────────────────────────────────────────────── */}
+  38 |       <section className="hero-bg dot-pattern relative overflow-hidden">
+[browser] Uncaught Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at Home (src\app\page.tsx:35:7)
+  33 |   return (
+  34 |     <div className="min-h-screen flex flex-col">
+> 35 |       <Navbar />
+     |       ^
+  36 |
+  37 |       {/* ── Hero ──────────────────────────────────────────────── */}
+  38 |       <section className="hero-bg dot-pattern relative overflow-hidden">
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+✓ Compiled in 428ms
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+ GET / 500 in 8.0s (next.js: 13ms, application-code: 8.0s)
+ GET / 500 in 4.2s (next.js: 207ms, application-code: 4.0s)
+[browser] Uncaught Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at Home (src\app\page.tsx:35:7)
+  33 |   return (
+  34 |     <div className="min-h-screen flex flex-col">
+> 35 |       <Navbar />
+     |       ^
+  36 |
+  37 |       {/* ── Hero ──────────────────────────────────────────────── */}
+  38 |       <section className="hero-bg dot-pattern relative overflow-hidden">
+[browser] Uncaught Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at Home (src\app\page.tsx:35:7)
+  33 |   return (
+  34 |     <div className="min-h-screen flex flex-col">
+> 35 |       <Navbar />
+     |       ^
+  36 |
+  37 |       {/* ── Hero ──────────────────────────────────────────────── */}
+  38 |       <section className="hero-bg dot-pattern relative overflow-hidden">
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+✓ Compiled in 500ms
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3146848592'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2919482416'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3695710960'
+}
+⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href="/admin" className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4056128048'
+}
+ GET / 500 in 7.1s (next.js: 18ms, application-code: 7.0s)
+ GET / 500 in 3.6s (next.js: 22ms, application-code: 3.5s)
+[browser] Uncaught Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at Home (src\app\page.tsx:35:7)
+  33 |   return (
+  34 |     <div className="min-h-screen flex flex-col">
+> 35 |       <Navbar />
+     |       ^
+  36 |
+  37 |       {/* ── Hero ──────────────────────────────────────────────── */}
+  38 |       <section className="hero-bg dot-pattern relative overflow-hidden">
+[browser] Uncaught Error: Event handlers cannot be passed to Client Component props.
+  <... href="/" className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at stringify (<anonymous>:1:18)
+    at Home (src\app\page.tsx:35:7)
+  33 |   return (
+  34 |     <div className="min-h-screen flex flex-col">
+> 35 |       <Navbar />
+     |       ^
+  36 |
+  37 |       {/* ── Hero ──────────────────────────────────────────────── */}
+  38 |       <section className="hero-bg dot-pattern relative overflow-hidden">
+✓ Compiled in 346ms
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 1938ms (next.js: 473ms, application-code: 1466ms)
+ GET / 200 in 712ms (next.js: 24ms, application-code: 688ms)
+ GET / 200 in 394ms (next.js: 14ms, application-code: 380ms)
+✓ Compiled in 250ms
+✓ Compiled in 319ms
+ GET /admin 200 in 916ms (next.js: 682ms, application-code: 234ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET / 200 in 100ms (next.js: 13ms, application-code: 87ms)
+ GET /admin 200 in 74ms (next.js: 13ms, application-code: 61ms)
+ GET / 200 in 104ms (next.js: 15ms, application-code: 88ms)
+ GET / 200 in 328ms (next.js: 29ms, application-code: 298ms)
+ GET / 200 in 347ms (next.js: 15ms, application-code: 332ms)
+ GET / 200 in 720ms (next.js: 16ms, application-code: 703ms)
+ GET / 200 in 780ms (next.js: 27ms, application-code: 753ms)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <Home>
+              <div className="min-h-scre...">
+                <header>
+                <section>
+                <section>
+                <section>
+                <section id="predictor" className="section">
+                  <div className="container">
+                    <div>
+                    <PredictorForm>
+                      <div className="space-y-5">
+                        <div className="card round...">
+                          <div className="grid grid-...">
+                            <div>
+                              <label>
+                              <div className="relative">
+                                <span>
+                                <input
+                                  type="number"
+                                  className="form-control pl-7"
+                                  placeholder="e.g. 5000"
+                                  value=""
+                                  onChange={function onChange}
+                                  onKeyDown={function onKeyDown}
+-                                 fdprocessedid="nu4my"
+                                >
+                            <div>
+                              <label>
+                              <div className="relative">
+                                <select
+                                  className="form-control pr-8"
+                                  value="SM"
+                                  onChange={function onChange}
+-                                 fdprocessedid="ur2y6l"
+                                >
+                                ...
+                            <div>
+                              <label>
+                              <div className="relative">
+                                <select
+                                  className="form-control pr-8"
+                                  value="All"
+                                  onChange={function onChange}
+-                                 fdprocessedid="ib3ier"
+                                >
+                                ...
+                          <div className="grid grid-...">
+                            <div>
+                              <label>
+                              <div className="relative">
+                                <select
+                                  className="form-control pr-8"
+                                  value=""
+                                  onChange={function onChange}
+-                                 fdprocessedid="fzwsqov"
+                                >
+                                ...
+                            <div>
+                              <label>
+                              <div className="relative">
+                                <select
+                                  className="form-control pr-8"
+                                  value=""
+                                  onChange={function onChange}
+                                  disabled={true}
+-                                 fdprocessedid="81z07"
+                                >
+                                ...
+                          ...
+                        ...
+                ...
+          ...
+        ...
+ 
+ GET / 200 in 1884ms (next.js: 312ms, application-code: 1572ms)
+ GET / 200 in 1429ms (next.js: 12ms, application-code: 1417ms)
+ GET / 200 in 1431ms (next.js: 97ms, application-code: 1334ms)
+ GET / 200 in 1208ms (next.js: 32ms, application-code: 1176ms)
+ GET / 200 in 1207ms (next.js: 587ms, application-code: 621ms)
+ GET / 200 in 1206ms (next.js: 705ms, application-code: 500ms)
+ GET / 200 in 1215ms (next.js: 423ms, application-code: 792ms)
+ GET / 200 in 1208ms (next.js: 810ms, application-code: 398ms)
+ GET / 200 in 239ms (next.js: 32ms, application-code: 207ms)
+ GET / 200 in 4.6s (next.js: 115ms, application-code: 4.5s)
+ GET / 200 in 1836ms (next.js: 125ms, application-code: 1711ms)
+✓ Compiled in 1514ms
+ GET / 200 in 1803ms (next.js: 545ms, application-code: 1258ms)
+ GET / 200 in 1809ms (next.js: 718ms, application-code: 1091ms)
+ GET / 200 in 672ms (next.js: 33ms, application-code: 639ms)
+ GET / 200 in 681ms (next.js: 138ms, application-code: 543ms)
+ GET / 200 in 445ms (next.js: 25ms, application-code: 419ms)
+ GET / 200 in 503ms (next.js: 155ms, application-code: 348ms)
+ GET / 200 in 1019ms (next.js: 383ms, application-code: 636ms)
+ GET / 200 in 536ms (next.js: 13ms, application-code: 523ms)
+ GET / 200 in 470ms (next.js: 14ms, application-code: 456ms)
+ GET / 200 in 422ms (next.js: 32ms, application-code: 390ms)
+ GET / 200 in 413ms (next.js: 92ms, application-code: 321ms)
+ GET / 200 in 416ms (next.js: 164ms, application-code: 252ms)
+✓ Compiled in 590ms
+ GET / 200 in 787ms (next.js: 13ms, application-code: 774ms)
+ GET / 200 in 255ms (next.js: 22ms, application-code: 233ms)
+ GET / 200 in 32ms (next.js: 12ms, application-code: 20ms)
+ GET / 200 in 1542ms (next.js: 351ms, application-code: 1191ms)
+ GET / 200 in 1070ms (next.js: 24ms, application-code: 1046ms)
+ GET / 200 in 1075ms (next.js: 213ms, application-code: 862ms)
+ GET / 200 in 689ms (next.js: 55ms, application-code: 634ms)
+ GET / 200 in 683ms (next.js: 219ms, application-code: 463ms)
+ GET / 200 in 477ms (next.js: 157ms, application-code: 320ms)
+ GET / 200 in 614ms (next.js: 13ms, application-code: 601ms)
+✓ Compiled in 580ms
+ GET / 200 in 743ms (next.js: 328ms, application-code: 415ms)
+ GET / 200 in 748ms (next.js: 219ms, application-code: 529ms)
+ GET / 200 in 334ms (next.js: 12ms, application-code: 322ms)
+ GET / 200 in 334ms (next.js: 75ms, application-code: 260ms)
+ GET / 200 in 185ms (next.js: 16ms, application-code: 169ms)
+ GET / 200 in 185ms (next.js: 91ms, application-code: 95ms)
+✓ Compiled in 469ms
+ GET / 200 in 1914ms (next.js: 718ms, application-code: 1196ms)
+ GET / 200 in 1121ms (next.js: 32ms, application-code: 1089ms)
+ GET / 200 in 1132ms (next.js: 191ms, application-code: 941ms)
+ GET / 200 in 851ms (next.js: 21ms, application-code: 829ms)
+ GET / 200 in 846ms (next.js: 140ms, application-code: 706ms)
+ GET / 200 in 723ms (next.js: 152ms, application-code: 571ms)
+✓ Compiled in 320ms
+ GET / 200 in 1011ms (next.js: 365ms, application-code: 646ms)
+ GET / 200 in 542ms (next.js: 87ms, application-code: 455ms)
+ GET / 200 in 538ms (next.js: 191ms, application-code: 347ms)
+✓ Compiled in 290ms
+ GET / 200 in 813ms (next.js: 333ms, application-code: 480ms)
+ GET / 200 in 353ms (next.js: 29ms, application-code: 324ms)
+ GET / 200 in 358ms (next.js: 151ms, application-code: 207ms)
+✓ Compiled in 1435ms
+ GET / 200 in 3.2s (next.js: 1649ms, application-code: 1540ms)
+ GET / 200 in 1413ms (next.js: 27ms, application-code: 1385ms)
+ GET / 200 in 1419ms (next.js: 102ms, application-code: 1317ms)
+ GET / 200 in 1336ms (next.js: 24ms, application-code: 1311ms)
+ GET / 200 in 1358ms (next.js: 101ms, application-code: 1258ms)
+ GET / 200 in 1361ms (next.js: 231ms, application-code: 1129ms)
+ GET / 200 in 1370ms (next.js: 295ms, application-code: 1075ms)
+ GET / 200 in 1275ms (next.js: 185ms, application-code: 1090ms)
+ GET / 200 in 1289ms (next.js: 22ms, application-code: 1267ms)
+ GET / 200 in 1291ms (next.js: 98ms, application-code: 1193ms)
+ GET / 200 in 1563ms (next.js: 49ms, application-code: 1513ms)
+ GET / 200 in 1425ms (next.js: 22ms, application-code: 1403ms)
+ GET / 200 in 1440ms (next.js: 21ms, application-code: 1419ms)
+ GET / 200 in 1349ms (next.js: 68ms, application-code: 1280ms)
+ GET / 200 in 1312ms (next.js: 161ms, application-code: 1150ms)
+ GET / 200 in 1085ms (next.js: 19ms, application-code: 1066ms)
+ GET / 200 in 1211ms (next.js: 130ms, application-code: 1081ms)
+ GET / 200 in 1212ms (next.js: 217ms, application-code: 994ms)
+ GET / 200 in 1216ms (next.js: 297ms, application-code: 919ms)
+ GET / 200 in 1820ms (next.js: 24ms, application-code: 1796ms)
+ GET / 200 in 1822ms (next.js: 106ms, application-code: 1716ms)
+ GET / 200 in 1830ms (next.js: 185ms, application-code: 1644ms)
+ GET / 200 in 1551ms (next.js: 18ms, application-code: 1533ms)
+ GET / 200 in 1455ms (next.js: 25ms, application-code: 1430ms)
+ GET / 200 in 1446ms (next.js: 30ms, application-code: 1416ms)
+ GET / 200 in 1329ms (next.js: 51ms, application-code: 1278ms)
+ GET / 200 in 1300ms (next.js: 188ms, application-code: 1112ms)
+ GET / 200 in 1160ms (next.js: 186ms, application-code: 975ms)
+ GET / 200 in 1003ms (next.js: 208ms, application-code: 795ms)
+ GET / 200 in 1004ms (next.js: 499ms, application-code: 506ms)
+ GET / 200 in 1013ms (next.js: 581ms, application-code: 432ms)
+ GET / 200 in 929ms (next.js: 18ms, application-code: 911ms)
+ GET / 200 in 956ms (next.js: 35ms, application-code: 921ms)
+ GET / 200 in 940ms (next.js: 142ms, application-code: 798ms)
+ GET / 200 in 728ms (next.js: 20ms, application-code: 707ms)
+ GET / 200 in 733ms (next.js: 117ms, application-code: 616ms)
+ GET / 200 in 744ms (next.js: 216ms, application-code: 527ms)
+✓ Compiled in 368ms
+ GET / 200 in 2.9s (next.js: 36ms, application-code: 2.8s)
+ GET / 200 in 3.0s (next.js: 52ms, application-code: 2.9s)
+ GET / 200 in 3.0s (next.js: 186ms, application-code: 2.8s)
+ GET / 200 in 2.8s (next.js: 729ms, application-code: 2.1s)
+ GET / 200 in 2.6s (next.js: 1207ms, application-code: 1415ms)
+ GET / 200 in 805ms (next.js: 101ms, application-code: 705ms)
+ GET / 200 in 466ms (next.js: 33ms, application-code: 433ms)
+ GET / 200 in 181ms (next.js: 16ms, application-code: 165ms)
+ GET / 200 in 896ms (next.js: 13ms, application-code: 883ms)
+ GET / 200 in 3.4s (next.js: 72ms, application-code: 3.3s)
+ GET / 200 in 936ms (next.js: 167ms, application-code: 770ms)
+ GET / 200 in 937ms (next.js: 252ms, application-code: 686ms)
+ GET / 200 in 477ms (next.js: 65ms, application-code: 412ms)
+ GET / 200 in 302ms (next.js: 14ms, application-code: 288ms)
+✓ Compiled in 1170ms
+✓ Compiled in 367ms
+ GET / 200 in 698ms (next.js: 479ms, application-code: 219ms)
+ GET / 200 in 92ms (next.js: 11ms, application-code: 81ms)
+✓ Compiled in 254ms
+ GET / 200 in 597ms (next.js: 250ms, application-code: 347ms)
+ GET / 200 in 155ms (next.js: 29ms, application-code: 126ms)
+✓ Compiled in 319ms
+ GET / 200 in 341ms (next.js: 221ms, application-code: 120ms)
+✓ Compiled in 409ms
+ GET / 200 in 315ms (next.js: 220ms, application-code: 95ms)
+ GET / 200 in 557ms (next.js: 341ms, application-code: 216ms)
+ GET / 200 in 114ms (next.js: 11ms, application-code: 103ms)
+⨯ ./src/app/page.tsx:102:17
+Expected '</', got 'jsx text'
+  [90m100 |[0m           ))}
+  [90m101 |[0m         </div>
+[31m[1m>[0m [90m102 |[0m       </section>
+  [90m    |[0m                 [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m103 |[0m
+  [90m    |[0m [31m[1m^[0m
+[31m[1m>[0m [90m104 |[0m       {[90m/* ══════════════════ HOW IT WORKS ══════════════════ */[0m}
+  [90m    |[0m [31m[1m^^^^^^[0m
+  [90m105 |[0m       <section id=[32m"how"[0m className=[32m"section"[0m style={{ background: [32m"var(--sand)"[0m }}>
+  [90m106 |[0m         <div className=[32m"container"[0m>
+  [90m107 |[0m           <div className=[32m"text-center mb-10 sm:mb-14"[0m>
+
+Parsing ecmascript source code failed
+
+
+○ Compiling /_error ...
+ GET / 500 in 5.2s (next.js: 4.6s, application-code: 607ms)
+✓ Compiled in 178ms
+ GET / 200 in 606ms (next.js: 260ms, application-code: 346ms)
+ GET / 200 in 212ms (next.js: 33ms, application-code: 179ms)
+ GET / 200 in 566ms (next.js: 342ms, application-code: 224ms)
+ GET / 200 in 101ms (next.js: 12ms, application-code: 89ms)
+ GET / 200 in 556ms (next.js: 318ms, application-code: 238ms)
+ GET / 200 in 133ms (next.js: 13ms, application-code: 120ms)
+✓ Compiled in 955ms
+ GET / 200 in 462ms (next.js: 235ms, application-code: 226ms)
+ GET / 200 in 116ms (next.js: 11ms, application-code: 104ms)
+✓ Compiled in 155ms
+ GET / 200 in 445ms (next.js: 236ms, application-code: 209ms)
+ GET / 200 in 113ms (next.js: 9ms, application-code: 104ms)
+✓ Compiled in 186ms
+ GET / 200 in 350ms (next.js: 224ms, application-code: 126ms)
+[browser] ./src/app/page.tsx:102:17
+Expected '</', got 'jsx text'
+  100 |           ))}
+  101 |         </div>
+> 102 |       </section>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 103 |
+      | ^
+> 104 |       {/* ══════════════════ HOW IT WORKS ══════════════════ */}
+      | ^^^^^^
+  105 |       <section id="how" className="section" style={{ background: "var(--sand)" }}>
+  106 |         <div className="container">
+  107 |           <div className="text-center mb-10 sm:mb-14">
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/page.tsx:102:17
+Expected '</', got 'jsx text'
+  100 |           ))}
+  101 |         </div>
+> 102 |       </section>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 103 |
+      | ^
+> 104 |       {/* ══════════════════ HOW IT WORKS ══════════════════ */}
+      | ^^^^^^
+  105 |       <section id="how" className="section" style={{ background: "var(--sand)" }}>
+  106 |         <div className="container">
+  107 |           <div className="text-center mb-10 sm:mb-14">
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/page.tsx:102:17
+Expected '</', got 'jsx text'
+  100 |           ))}
+  101 |         </div>
+> 102 |       </section>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 103 |
+      | ^
+> 104 |       {/* ══════════════════ HOW IT WORKS ══════════════════ */}
+      | ^^^^^^
+  105 |       <section id="how" className="section" style={{ background: "var(--sand)" }}>
+  106 |         <div className="container">
+  107 |           <div className="text-center mb-10 sm:mb-14">
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/page.tsx:102:17
+Expected '</', got 'jsx text'
+  100 |           ))}
+  101 |         </div>
+> 102 |       </section>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 103 |
+      | ^
+> 104 |       {/* ══════════════════ HOW IT WORKS ══════════════════ */}
+      | ^^^^^^
+  105 |       <section id="how" className="section" style={{ background: "var(--sand)" }}>
+  106 |         <div className="container">
+  107 |           <div className="text-center mb-10 sm:mb-14">
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/page.tsx:102:17
+Expected '</', got 'jsx text'
+  100 |           ))}
+  101 |         </div>
+> 102 |       </section>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 103 |
+      | ^
+> 104 |       {/* ══════════════════ HOW IT WORKS ══════════════════ */}
+      | ^^^^^^
+  105 |       <section id="how" className="section" style={{ background: "var(--sand)" }}>
+  106 |         <div className="container">
+  107 |           <div className="text-center mb-10 sm:mb-14">
+
+Parsing ecmascript source code failed 
+ GET / 200 in 759ms (next.js: 32ms, application-code: 727ms)
+ GET / 200 in 155ms (next.js: 9ms, application-code: 146ms)
+ GET / 200 in 164ms (next.js: 13ms, application-code: 151ms)
+ GET / 200 in 169ms (next.js: 19ms, application-code: 150ms)
+ GET / 200 in 220ms (next.js: 12ms, application-code: 209ms)
+ GET / 200 in 232ms (next.js: 16ms, application-code: 215ms)
+ GET / 200 in 220ms (next.js: 12ms, application-code: 208ms)
+ GET / 200 in 251ms (next.js: 42ms, application-code: 208ms)
+ GET / 200 in 199ms (next.js: 9ms, application-code: 189ms)
+ GET / 200 in 166ms (next.js: 9ms, application-code: 157ms)
+ GET / 200 in 151ms (next.js: 10ms, application-code: 141ms)
+ GET /admin 200 in 861ms (next.js: 426ms, application-code: 435ms)
+ GET / 200 in 366ms (next.js: 10ms, application-code: 356ms)
+ GET / 200 in 431ms (next.js: 49ms, application-code: 383ms)
+ GET / 200 in 419ms (next.js: 67ms, application-code: 352ms)
+ GET / 200 in 214ms (next.js: 24ms, application-code: 190ms)
+ GET / 200 in 210ms (next.js: 30ms, application-code: 180ms)
