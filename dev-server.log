@@ -1,0 +1,19 @@
+
+> cosmiq-keam-predictor@0.1.0 dev
+> next dev
+
+⚠ Port 3000 is in use by an unknown process, using available port 3001 instead.
+▲ Next.js 16.2.7 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://10.131.61.44:3001
+- Environments: .env.local
+✓ Ready in 2.4s
+⨯ Another next dev server is already running.
+
+- Local:        http://localhost:3000
+- PID:          41820
+- Dir:          C:\Users\lenovo\Desktop\cosmiq-keam-predictor
+- Log:          .next\dev\logs\next-development.log
+
+Run taskkill /PID 41820 /F to stop it.
+[?25h
