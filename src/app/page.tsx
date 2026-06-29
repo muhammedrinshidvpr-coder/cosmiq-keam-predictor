@@ -47,6 +47,7 @@ export default function Home() {
   const [loading, setLoading]               = useState(false);
   const [cooldown, setCooldown]             = useState(false);
   const [hasSearched, setHasSearched]       = useState(false);
+  const [dbError, setDbError]              = useState<string | null>(null);
 
   /* Load all college names on mount — paginate to bypass Supabase's 1000-row REST cap */
   useEffect(() => {
@@ -92,6 +93,7 @@ export default function Home() {
     setLoading(true);
     setHasSearched(true);
     setRankError(false);
+    setDbError(null);
     try {
       let q = supabase.from("cutoffs").select("*").gte(category, Number(rank));
       if (phase !== "All")   q = q.eq("phase",       phase);
@@ -110,7 +112,9 @@ export default function Home() {
             margin: (r[category] as number) - userRank,
           }))
       );
-    } catch {
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : String(err);
+      setDbError(msg);
       setResults([]);
     } finally {
       setLoading(false);
@@ -178,17 +182,6 @@ export default function Home() {
       {/* ── Hero ── */}
       <section style={{ padding: "5rem 1.5rem 3.5rem", textAlign: "center", position: "relative", zIndex: 1 }}>
         <div style={CENTER_SM}>
-          <div style={{
-            display: "inline-flex", alignItems: "center", gap: "0.5rem",
-            padding: "0.3rem 1rem", borderRadius: "9999px", marginBottom: "1.75rem",
-            background: "rgba(255,255,255,0.75)", border: "1px solid rgba(160,210,235,0.5)",
-            backdropFilter: "blur(12px)",
-            color: P.purple, fontSize: "0.7rem", fontWeight: 700, letterSpacing: "0.09em", textTransform: "uppercase",
-            boxShadow: "0 2px 12px rgba(132,88,179,0.1)",
-          }}>
-            <span style={{ height: "0.5rem", width: "0.5rem", borderRadius: "9999px", background: P.skyBlue, display: "inline-block" }} />
-            Official 2024 Phase 1 &amp; 2 Data
-          </div>
 
           <h1 style={{ fontSize: "clamp(2.25rem, 6vw, 3.75rem)", fontWeight: 900, letterSpacing: "-0.03em", lineHeight: 1.07, marginBottom: "1.25rem", color: P.textPrimary }}>
             Find your KEAM colleges{" "}
@@ -232,7 +225,7 @@ export default function Home() {
               boxShadow: "0 2px 12px rgba(132,88,179,0.1)",
             }}>
               <Sparkles style={{ width: "0.875rem", height: "0.875rem" }} />
-              KEAM 2024 Predictor
+              KEAM 2025 Predictor
             </span>
           </div>
 
@@ -406,6 +399,17 @@ export default function Home() {
               )}
             </div>
           </div>
+
+          {/* ── DB Error banner ── */}
+          {dbError && (
+            <div style={{
+              marginBottom: "1.5rem", padding: "1rem 1.25rem", borderRadius: "0.875rem",
+              background: "rgba(255,80,80,0.08)", border: "1.5px solid rgba(255,80,80,0.25)",
+              color: "#c0392b", fontSize: "0.875rem", fontWeight: 500,
+            }}>
+              <strong>Database error:</strong> {dbError}
+            </div>
+          )}
 
           {/* ── Results ── */}
           <div id="results-section" style={{ scrollMarginTop: "5.5rem" }}>
