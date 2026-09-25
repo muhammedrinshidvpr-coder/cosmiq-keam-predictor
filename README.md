@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CosmIQ KEAM Predictor
 
-## Getting Started
+**Find which Kerala engineering colleges and branches your KEAM rank can get you, based on previous years' allotment cutoffs.**
 
-First, run the development server:
+🔗 **Live:** [cosmiq-keam-predictor.vercel.app](https://cosmiq-keam-predictor.vercel.app)
+
+![Screenshot](./ss_predictor.png)
+
+---
+
+## Features
+
+- Rank + category search across historical closing ranks, with searchable college/branch filters
+- Results as a grid or table
+- **Admin upload** — bulk-import new cutoff data from the browser; server-side API routes use the Supabase service role, so it never reaches the client
+
+## Tech stack
+
+Next.js 16 (App Router) · React 19 · TypeScript · Tailwind CSS · Supabase (Postgres)
+
+## Run locally
 
 ```bash
+npm install
+# .env.local: NEXT_PUBLIC_SUPABASE_URL, NEXT_PUBLIC_SUPABASE_ANON_KEY, SUPABASE_SERVICE_ROLE_KEY
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Schema: [`supabase/migrations`](./supabase/migrations). Seed data: `scripts/upload-data.mjs`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+> The same predictor engine powers the official [Pragathi KEAM Help Desk portal](https://github.com/muhammedrinshidvpr-coder/pragathi-keam-portal).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Author
 
-## Learn More
+Built by [Muhammed Rinshid V P](https://github.com/muhammedrinshidvpr-coder) · [CosmIQ](https://github.com/muhammedrinshidvpr-coder)
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[MIT](./LICENSE)
